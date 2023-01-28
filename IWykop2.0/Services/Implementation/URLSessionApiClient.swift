@@ -33,8 +33,8 @@ public class URLSessionApiClient: NSObject, ApiClient, URLSessionDelegate {
     public func getFile(
         from url: String,
         progress: ((Double) -> Void)?,
-        completion: @escaping (Data?, Error?
-    ) -> Void) {
+        completion: @escaping (Data?, Error?) -> Void)
+    {
         guard let url = URL(string: url) else {
             completion(nil, "invalid URL")
             return
@@ -52,7 +52,8 @@ public class URLSessionApiClient: NSObject, ApiClient, URLSessionDelegate {
         downloadTask.resume()
     }
 
-    public func httpRequest(_ request: ApiRequest, completion: (@escaping (Data?, Error?) -> Void)) {
+    public func httpRequest(_ request: ApiRequest,
+                            completion: (@escaping (Data?, Error?) -> Void)) {
         var urlString: String?
         var connectionBody: Data?
         let httpMethod = request.method()

@@ -10,3 +10,8 @@ line_length:
 
 disabled_rules:
   - unused_closure_parameter
+  - inclusive_language
+
+variable_name:
+  min_length:
+    warning: 1

@@ -24,6 +24,14 @@
 		5639E4FD29847C4400378AB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4FC29847C4400378AB5 /* Coordinator.swift */; };
 		5639E4FF29847C7400378AB5 /* BodyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4FE29847C7400378AB5 /* BodyFormatter.swift */; };
 		5639E501298592F200378AB5 /* apiCreditentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5639E500298592F200378AB5 /* apiCreditentials.plist */; };
+		5639E5032985A05D00378AB5 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5022985A05D00378AB5 /* Auth.swift */; };
+		5639E5052985A0AB00378AB5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5042985A0AB00378AB5 /* Response.swift */; };
+		5639E5072985A1CF00378AB5 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5062985A1CF00378AB5 /* Links.swift */; };
+		5639E5092985A26000378AB5 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5082985A26000378AB5 /* Tags.swift */; };
+		5639E50B2985A2F500378AB5 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E50A2985A2F500378AB5 /* Author.swift */; };
+		5639E50D2985A30A00378AB5 /* Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E50C2985A30A00378AB5 /* Embed.swift */; };
+		5639E50F2985A3FE00378AB5 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E50E2985A3FE00378AB5 /* Entry.swift */; };
+		5639E5112985C24200378AB5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5102985C24200378AB5 /* Comment.swift */; };
 		AD2E8EBE411AE5C688FF6237 /* Pods_iWykop2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D68E8ABCEDFFE6A37E1D068 /* Pods_iWykop2_0Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +76,14 @@
 		5639E4FC29847C4400378AB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		5639E4FE29847C7400378AB5 /* BodyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFormatter.swift; sourceTree = "<group>"; };
 		5639E500298592F200378AB5 /* apiCreditentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apiCreditentials.plist; sourceTree = "<group>"; };
+		5639E5022985A05D00378AB5 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		5639E5042985A0AB00378AB5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5639E5062985A1CF00378AB5 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		5639E5082985A26000378AB5 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		5639E50A2985A2F500378AB5 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		5639E50C2985A30A00378AB5 /* Embed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Embed.swift; sourceTree = "<group>"; };
+		5639E50E2985A3FE00378AB5 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		5639E5102985C24200378AB5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		8D68E8ABCEDFFE6A37E1D068 /* Pods_iWykop2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWykop2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F4224E1AEBA2114176DFA4 /* Pods-iWykop2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0Tests.release.xcconfig"; path = "Target Support Files/Pods-iWykop2.0Tests/Pods-iWykop2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4A5333E9B8E80241D2132F8 /* Pods-iWykop2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0.debug.xcconfig"; path = "Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +268,14 @@
 		5639E4F0298478F900378AB5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5639E5022985A05D00378AB5 /* Auth.swift */,
+				5639E5042985A0AB00378AB5 /* Response.swift */,
+				5639E5062985A1CF00378AB5 /* Links.swift */,
+				5639E5082985A26000378AB5 /* Tags.swift */,
+				5639E50A2985A2F500378AB5 /* Author.swift */,
+				5639E50C2985A30A00378AB5 /* Embed.swift */,
+				5639E50E2985A3FE00378AB5 /* Entry.swift */,
+				5639E5102985C24200378AB5 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -563,9 +587,17 @@
 				5639E4EC2984779A00378AB5 /* Registration.swift in Sources */,
 				5639E4F62984798F00378AB5 /* ApiV3.swift in Sources */,
 				5639E4B929846BFB00378AB5 /* IWykop20App.swift in Sources */,
+				5639E5112985C24200378AB5 /* Comment.swift in Sources */,
+				5639E5092985A26000378AB5 /* Tags.swift in Sources */,
+				5639E50D2985A30A00378AB5 /* Embed.swift in Sources */,
+				5639E5032985A05D00378AB5 /* Auth.swift in Sources */,
+				5639E50F2985A3FE00378AB5 /* Entry.swift in Sources */,
 				5639E4FB29847BEA00378AB5 /* String.swift in Sources */,
+				5639E5072985A1CF00378AB5 /* Links.swift in Sources */,
+				5639E5052985A0AB00378AB5 /* Response.swift in Sources */,
 				5639E4F829847A5800378AB5 /* URLSessionApiClient.swift in Sources */,
 				5639E4F42984797300378AB5 /* ApiClient.swift in Sources */,
+				5639E50B2985A2F500378AB5 /* Author.swift in Sources */,
 				5639E4FF29847C7400378AB5 /* BodyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
