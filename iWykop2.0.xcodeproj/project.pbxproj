@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5639E4B929846BFB00378AB5 /* iWykop2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4B829846BFB00378AB5 /* iWykop2_0App.swift */; };
+		2EC7556201F787C38FE78D8F /* Pods_iWykop2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370C37113F1CBF6D314A5C0B /* Pods_iWykop2_0.framework */; };
+		3104321BE8F24BBCC225C99E /* Pods_iWykop2_0_iWykop2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F105109A9641E6FA33DD8E92 /* Pods_iWykop2_0_iWykop2_0UITests.framework */; };
+		5639E4B929846BFB00378AB5 /* IWykop20App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4B829846BFB00378AB5 /* IWykop20App.swift */; };
 		5639E4BB29846BFB00378AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4BA29846BFB00378AB5 /* ContentView.swift */; };
 		5639E4BD29846BFC00378AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5639E4BC29846BFC00378AB5 /* Assets.xcassets */; };
 		5639E4C129846BFC00378AB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5639E4C029846BFC00378AB5 /* Preview Assets.xcassets */; };
-		5639E4CB29846BFC00378AB5 /* iWykop2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4CA29846BFC00378AB5 /* iWykop2_0Tests.swift */; };
-		5639E4D529846BFC00378AB5 /* iWykop2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4D429846BFC00378AB5 /* iWykop2_0UITests.swift */; };
-		5639E4D729846BFC00378AB5 /* iWykop2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4D629846BFC00378AB5 /* iWykop2_0UITestsLaunchTests.swift */; };
+		5639E4CB29846BFC00378AB5 /* IWykop20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4CA29846BFC00378AB5 /* IWykop20Tests.swift */; };
+		5639E4D529846BFC00378AB5 /* IWykop20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4D429846BFC00378AB5 /* IWykop20UITests.swift */; };
+		5639E4D729846BFC00378AB5 /* IWykop2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4D629846BFC00378AB5 /* IWykop2UITestsLaunchTests.swift */; };
+		5639E4EC2984779A00378AB5 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4EB2984779A00378AB5 /* Registration.swift */; };
+		5639E4F42984797300378AB5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4F32984797300378AB5 /* ApiClient.swift */; };
+		5639E4F62984798F00378AB5 /* ApiV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4F52984798F00378AB5 /* ApiV3.swift */; };
+		5639E4F829847A5800378AB5 /* URLSessionApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4F729847A5800378AB5 /* URLSessionApiClient.swift */; };
+		5639E4FB29847BEA00378AB5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4FA29847BEA00378AB5 /* String.swift */; };
+		5639E4FD29847C4400378AB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4FC29847C4400378AB5 /* Coordinator.swift */; };
+		5639E4FF29847C7400378AB5 /* BodyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E4FE29847C7400378AB5 /* BodyFormatter.swift */; };
+		5639E501298592F200378AB5 /* apiCreditentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5639E500298592F200378AB5 /* apiCreditentials.plist */; };
+		AD2E8EBE411AE5C688FF6237 /* Pods_iWykop2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D68E8ABCEDFFE6A37E1D068 /* Pods_iWykop2_0Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +45,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17EDDE1E10E1B0EEABCFEF39 /* Pods-iWykop2.0-iWykop2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0-iWykop2.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-iWykop2.0-iWykop2.0UITests/Pods-iWykop2.0-iWykop2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30FC7A4A8B851491F0A3A0BF /* Pods-iWykop2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-iWykop2.0Tests/Pods-iWykop2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		370C37113F1CBF6D314A5C0B /* Pods_iWykop2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWykop2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5639E4B529846BFB00378AB5 /* iWykop2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWykop2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5639E4B829846BFB00378AB5 /* iWykop2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWykop2_0App.swift; sourceTree = "<group>"; };
+		5639E4B829846BFB00378AB5 /* IWykop20App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWykop20App.swift; sourceTree = "<group>"; };
 		5639E4BA29846BFB00378AB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5639E4BC29846BFC00378AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5639E4BE29846BFC00378AB5 /* iWykop2_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iWykop2_0.entitlements; sourceTree = "<group>"; };
 		5639E4C029846BFC00378AB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5639E4C629846BFC00378AB5 /* iWykop2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWykop2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5639E4CA29846BFC00378AB5 /* iWykop2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWykop2_0Tests.swift; sourceTree = "<group>"; };
+		5639E4CA29846BFC00378AB5 /* IWykop20Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWykop20Tests.swift; sourceTree = "<group>"; };
 		5639E4D029846BFC00378AB5 /* iWykop2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWykop2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5639E4D429846BFC00378AB5 /* iWykop2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWykop2_0UITests.swift; sourceTree = "<group>"; };
-		5639E4D629846BFC00378AB5 /* iWykop2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWykop2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5639E4D429846BFC00378AB5 /* IWykop20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWykop20UITests.swift; sourceTree = "<group>"; };
+		5639E4D629846BFC00378AB5 /* IWykop2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWykop2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5639E4EA2984749600378AB5 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		5639E4EB2984779A00378AB5 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		5639E4F32984797300378AB5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		5639E4F52984798F00378AB5 /* ApiV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiV3.swift; sourceTree = "<group>"; };
+		5639E4F729847A5800378AB5 /* URLSessionApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionApiClient.swift; sourceTree = "<group>"; };
+		5639E4FA29847BEA00378AB5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5639E4FC29847C4400378AB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5639E4FE29847C7400378AB5 /* BodyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFormatter.swift; sourceTree = "<group>"; };
+		5639E500298592F200378AB5 /* apiCreditentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apiCreditentials.plist; sourceTree = "<group>"; };
+		8D68E8ABCEDFFE6A37E1D068 /* Pods_iWykop2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWykop2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F4224E1AEBA2114176DFA4 /* Pods-iWykop2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0Tests.release.xcconfig"; path = "Target Support Files/Pods-iWykop2.0Tests/Pods-iWykop2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A5333E9B8E80241D2132F8 /* Pods-iWykop2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0.debug.xcconfig"; path = "Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		E080DF254F2EE1E67D262500 /* Pods-iWykop2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0.release.xcconfig"; path = "Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0.release.xcconfig"; sourceTree = "<group>"; };
+		EBC1F70F7366A92B2F48A329 /* Pods-iWykop2.0-iWykop2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWykop2.0-iWykop2.0UITests.release.xcconfig"; path = "Target Support Files/Pods-iWykop2.0-iWykop2.0UITests/Pods-iWykop2.0-iWykop2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F105109A9641E6FA33DD8E92 /* Pods_iWykop2_0_iWykop2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWykop2_0_iWykop2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC7556201F787C38FE78D8F /* Pods_iWykop2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2E8EBE411AE5C688FF6237 /* Pods_iWykop2_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +97,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3104321BE8F24BBCC225C99E /* Pods_iWykop2_0_iWykop2_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA06797354CACA6AF5A4265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370C37113F1CBF6D314A5C0B /* Pods_iWykop2_0.framework */,
+				F105109A9641E6FA33DD8E92 /* Pods_iWykop2_0_iWykop2_0UITests.framework */,
+				8D68E8ABCEDFFE6A37E1D068 /* Pods_iWykop2_0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5639E4AC29846BFB00378AB5 = {
 			isa = PBXGroup;
 			children = (
-				5639E4B729846BFB00378AB5 /* iWykop2.0 */,
-				5639E4C929846BFC00378AB5 /* iWykop2.0Tests */,
-				5639E4D329846BFC00378AB5 /* iWykop2.0UITests */,
+				5639E4EA2984749600378AB5 /* .swiftlint.yml */,
+				5639E4B729846BFB00378AB5 /* IWykop2.0 */,
+				5639E4C929846BFC00378AB5 /* IWykop2.0Tests */,
+				5639E4D329846BFC00378AB5 /* IWykop2.0UITests */,
 				5639E4B629846BFB00378AB5 /* Products */,
+				E9DFA03E93E8AE9924225FA2 /* Pods */,
+				0EA06797354CACA6AF5A4265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,16 +137,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5639E4B729846BFB00378AB5 /* iWykop2.0 */ = {
+		5639E4B729846BFB00378AB5 /* IWykop2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				5639E4B829846BFB00378AB5 /* iWykop2_0App.swift */,
+				5639E4F0298478F900378AB5 /* Model */,
+				5639E4ED2984788400378AB5 /* Services */,
+				5639E4E9298472E200378AB5 /* SupportingFiles */,
+				5639E4E8298472A800378AB5 /* Utils */,
+				5639E4E72984728500378AB5 /* DI */,
+				5639E4E62984726E00378AB5 /* AppFlow */,
+				5639E4E52984725D00378AB5 /* Sourcery */,
+				5639E4B829846BFB00378AB5 /* IWykop20App.swift */,
 				5639E4BA29846BFB00378AB5 /* ContentView.swift */,
-				5639E4BC29846BFC00378AB5 /* Assets.xcassets */,
-				5639E4BE29846BFC00378AB5 /* iWykop2_0.entitlements */,
-				5639E4BF29846BFC00378AB5 /* Preview Content */,
 			);
-			path = iWykop2.0;
+			path = IWykop2.0;
 			sourceTree = "<group>";
 		};
 		5639E4BF29846BFC00378AB5 /* Preview Content */ = {
@@ -112,21 +161,126 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5639E4C929846BFC00378AB5 /* iWykop2.0Tests */ = {
+		5639E4C929846BFC00378AB5 /* IWykop2.0Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5639E4CA29846BFC00378AB5 /* iWykop2_0Tests.swift */,
+				5639E4CA29846BFC00378AB5 /* IWykop20Tests.swift */,
 			);
-			path = iWykop2.0Tests;
+			path = IWykop2.0Tests;
 			sourceTree = "<group>";
 		};
-		5639E4D329846BFC00378AB5 /* iWykop2.0UITests */ = {
+		5639E4D329846BFC00378AB5 /* IWykop2.0UITests */ = {
 			isa = PBXGroup;
 			children = (
-				5639E4D429846BFC00378AB5 /* iWykop2_0UITests.swift */,
-				5639E4D629846BFC00378AB5 /* iWykop2_0UITestsLaunchTests.swift */,
+				5639E4D429846BFC00378AB5 /* IWykop20UITests.swift */,
+				5639E4D629846BFC00378AB5 /* IWykop2UITestsLaunchTests.swift */,
 			);
-			path = iWykop2.0UITests;
+			path = IWykop2.0UITests;
+			sourceTree = "<group>";
+		};
+		5639E4E52984725D00378AB5 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
+		5639E4E62984726E00378AB5 /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		5639E4E72984728500378AB5 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4EB2984779A00378AB5 /* Registration.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		5639E4E8298472A800378AB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4F929847B8300378AB5 /* SwiftUI */,
+				5639E4FA29847BEA00378AB5 /* String.swift */,
+				5639E4FC29847C4400378AB5 /* Coordinator.swift */,
+				5639E4FE29847C7400378AB5 /* BodyFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5639E4E9298472E200378AB5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4BF29846BFC00378AB5 /* Preview Content */,
+				5639E4BE29846BFC00378AB5 /* iWykop2_0.entitlements */,
+				5639E4BC29846BFC00378AB5 /* Assets.xcassets */,
+				5639E500298592F200378AB5 /* apiCreditentials.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5639E4ED2984788400378AB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4EF298478C100378AB5 /* Implementation */,
+				5639E4EE298478B100378AB5 /* Protocols */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5639E4EE298478B100378AB5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4F32984797300378AB5 /* ApiClient.swift */,
+				5639E4F52984798F00378AB5 /* ApiV3.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5639E4EF298478C100378AB5 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5639E4F12984792B00378AB5 /* ApiV3 */,
+				5639E4F729847A5800378AB5 /* URLSessionApiClient.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5639E4F0298478F900378AB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5639E4F12984792B00378AB5 /* ApiV3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApiV3;
+			sourceTree = "<group>";
+		};
+		5639E4F929847B8300378AB5 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E9DFA03E93E8AE9924225FA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A5333E9B8E80241D2132F8 /* Pods-iWykop2.0.debug.xcconfig */,
+				E080DF254F2EE1E67D262500 /* Pods-iWykop2.0.release.xcconfig */,
+				17EDDE1E10E1B0EEABCFEF39 /* Pods-iWykop2.0-iWykop2.0UITests.debug.xcconfig */,
+				EBC1F70F7366A92B2F48A329 /* Pods-iWykop2.0-iWykop2.0UITests.release.xcconfig */,
+				30FC7A4A8B851491F0A3A0BF /* Pods-iWykop2.0Tests.debug.xcconfig */,
+				93F4224E1AEBA2114176DFA4 /* Pods-iWykop2.0Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +290,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5639E4DA29846BFC00378AB5 /* Build configuration list for PBXNativeTarget "iWykop2.0" */;
 			buildPhases = (
+				59016D1F01F6506FC996DB1B /* [CP] Check Pods Manifest.lock */,
+				5639E4E3298471AD00378AB5 /* ShellScript */,
+				5639E4E4298471BB00378AB5 /* ShellScript */,
 				5639E4B129846BFB00378AB5 /* Sources */,
 				5639E4B229846BFB00378AB5 /* Frameworks */,
 				5639E4B329846BFB00378AB5 /* Resources */,
+				C59FDA6465D94AA26039F414 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5639E4DD29846BFC00378AB5 /* Build configuration list for PBXNativeTarget "iWykop2.0Tests" */;
 			buildPhases = (
+				F90A8809EB2F31D496E516B1 /* [CP] Check Pods Manifest.lock */,
 				5639E4C229846BFC00378AB5 /* Sources */,
 				5639E4C329846BFC00378AB5 /* Frameworks */,
 				5639E4C429846BFC00378AB5 /* Resources */,
@@ -171,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5639E4E029846BFC00378AB5 /* Build configuration list for PBXNativeTarget "iWykop2.0UITests" */;
 			buildPhases = (
+				41FAC4B66DA6E05D7349FCCE /* [CP] Check Pods Manifest.lock */,
 				5639E4CC29846BFC00378AB5 /* Sources */,
 				5639E4CD29846BFC00378AB5 /* Frameworks */,
 				5639E4CE29846BFC00378AB5 /* Resources */,
+				C6E1F086B4CF0CDB6249BE4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5639E501298592F200378AB5 /* apiCreditentials.plist in Resources */,
 				5639E4C129846BFC00378AB5 /* Preview Assets.xcassets in Resources */,
 				5639E4BD29846BFC00378AB5 /* Assets.xcassets in Resources */,
 			);
@@ -254,13 +416,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41FAC4B66DA6E05D7349FCCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWykop2.0-iWykop2.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5639E4E3298471AD00378AB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		5639E4E4298471BB00378AB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		59016D1F01F6506FC996DB1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWykop2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59FDA6465D94AA26039F414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0/Pods-iWykop2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E1F086B4CF0CDB6249BE4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0-iWykop2.0UITests/Pods-iWykop2.0-iWykop2.0UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0-iWykop2.0UITests/Pods-iWykop2.0-iWykop2.0UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iWykop2.0-iWykop2.0UITests/Pods-iWykop2.0-iWykop2.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90A8809EB2F31D496E516B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iWykop2.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5639E4B129846BFB00378AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5639E4FD29847C4400378AB5 /* Coordinator.swift in Sources */,
 				5639E4BB29846BFB00378AB5 /* ContentView.swift in Sources */,
-				5639E4B929846BFB00378AB5 /* iWykop2_0App.swift in Sources */,
+				5639E4EC2984779A00378AB5 /* Registration.swift in Sources */,
+				5639E4F62984798F00378AB5 /* ApiV3.swift in Sources */,
+				5639E4B929846BFB00378AB5 /* IWykop20App.swift in Sources */,
+				5639E4FB29847BEA00378AB5 /* String.swift in Sources */,
+				5639E4F829847A5800378AB5 /* URLSessionApiClient.swift in Sources */,
+				5639E4F42984797300378AB5 /* ApiClient.swift in Sources */,
+				5639E4FF29847C7400378AB5 /* BodyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5639E4CB29846BFC00378AB5 /* iWykop2_0Tests.swift in Sources */,
+				5639E4CB29846BFC00378AB5 /* IWykop20Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +582,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5639E4D529846BFC00378AB5 /* iWykop2_0UITests.swift in Sources */,
-				5639E4D729846BFC00378AB5 /* iWykop2_0UITestsLaunchTests.swift in Sources */,
+				5639E4D529846BFC00378AB5 /* IWykop20UITests.swift in Sources */,
+				5639E4D729846BFC00378AB5 /* IWykop2UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +636,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -388,6 +695,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -408,13 +716,17 @@
 		};
 		5639E4DB29846BFC00378AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A5333E9B8E80241D2132F8 /* Pods-iWykop2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iWykop2.0/iWykop2_0.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iWykop2.0/SupportingFiles/iWykop2_0.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iWykop2.0/Preview Content\"";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"iWykop2.0/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VAGM362QW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -444,13 +756,17 @@
 		};
 		5639E4DC29846BFC00378AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E080DF254F2EE1E67D262500 /* Pods-iWykop2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iWykop2.0/iWykop2_0.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iWykop2.0/SupportingFiles/iWykop2_0.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iWykop2.0/Preview Content\"";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"iWykop2.0/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VAGM362QW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -480,11 +796,13 @@
 		};
 		5639E4DE29846BFC00378AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FC7A4A8B851491F0A3A0BF /* Pods-iWykop2.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -502,11 +820,13 @@
 		};
 		5639E4DF29846BFC00378AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F4224E1AEBA2114176DFA4 /* Pods-iWykop2.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -524,10 +844,12 @@
 		};
 		5639E4E129846BFC00378AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EDDE1E10E1B0EEABCFEF39 /* Pods-iWykop2.0-iWykop2.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -545,10 +867,12 @@
 		};
 		5639E4E229846BFC00378AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC1F70F7366A92B2F48A329 /* Pods-iWykop2.0-iWykop2.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;

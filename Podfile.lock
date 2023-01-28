@@ -1,0 +1,79 @@
+PODS:
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.200)
+  - DBDebugToolkit (0.9.0)
+  - Kingfisher (7.5.0)
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
+  - KSToastView (0.5.7)
+  - LoggerAPI (1.9.200):
+    - Logging (~> 1.1)
+  - Logging (1.4.0)
+  - Resolver (1.5.0)
+  - Sourcery (1.9.2):
+    - Sourcery/CLI-Only (= 1.9.2)
+  - Sourcery/CLI-Only (1.9.2)
+  - SwiftJWT (3.6.200):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.2)
+    - LoggerAPI (~> 1.7)
+  - SwiftLint (0.50.3)
+  - SwiftyGif (5.4.4)
+
+DEPENDENCIES:
+  - DBDebugToolkit
+  - Kingfisher (~> 7.0)
+  - KSToastView (from `https://github.com/marcinmierzejewski1024/KSToastView.git`)
+  - Resolver
+  - Sourcery
+  - SwiftJWT
+  - SwiftLint
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - DBDebugToolkit
+    - Kingfisher
+    - KituraContracts
+    - LoggerAPI
+    - Logging
+    - Resolver
+    - Sourcery
+    - SwiftJWT
+    - SwiftLint
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  KSToastView:
+    :git: https://github.com/marcinmierzejewski1024/KSToastView.git
+
+CHECKOUT OPTIONS:
+  KSToastView:
+    :commit: e5bdb20506cf13d8701d650450b4f553115ef463
+    :git: https://github.com/marcinmierzejewski1024/KSToastView.git
+
+SPEC CHECKSUMS:
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: dfeef51db96bcc4edec654956c1581adbda4e6a3
+  DBDebugToolkit: 41663a36673c919dfe665003f159ea5621aee0db
+  Kingfisher: b9c2a4a4af2990a768445c277359b27bde287d71
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+  Sourcery: 179539341c2261068528cd15a31837b7238fd901
+  SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+
+PODFILE CHECKSUM: 240b43f25ca6a2f5ec4955cbaba6230da532dee5
+
+COCOAPODS: 1.11.3
