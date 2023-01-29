@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DBDebugToolkit
 
 @main
 struct IWykop20App: App {
@@ -13,5 +14,10 @@ struct IWykop20App: App {
         WindowGroup {
             ContentView()
         }
+    }
+    
+    init(){
+        let shakeTrigger = DBShakeTrigger()
+        DBDebugToolkit.setup(with: [shakeTrigger])
     }
 }

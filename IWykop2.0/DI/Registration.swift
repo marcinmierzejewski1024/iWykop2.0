@@ -8,12 +8,11 @@
 import Foundation
 import Resolver
 
-extension Resolver: ResolverRegistering {
-    public static func registerAllServices() {
+//extension Resolver: ResolverRegistering {
+//    public static func registerAllServices() {
 //        register(URLSessionApiClient.self) { resolver, args in
 //            return URLSessionApiClient()
 //        }.scope(.graph)
-//
 //
 //        register(AFNetworkApiClient.self) { resolver, args in
 //            return AFNetworkApiClient()
@@ -63,5 +62,5 @@ extension Resolver: ResolverRegistering {
 //        register(AuthorService.self) { resolver, args in
 //            return AuthorServiceImpl()
 //        }.scope(.graph)
-    }
-}
+//    }
+//}

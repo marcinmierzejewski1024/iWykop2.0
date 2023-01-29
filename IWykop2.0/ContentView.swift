@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @State var cancellable: AnyCancellable?
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -15,7 +18,17 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
+        .padding().onAppear {
+            do {
+                cancellable = try ApiV3Service(creditentialProvider: ApiV3CreditentialsProvider(), dataTaskProvider: DataTaskPublisherProvider()).authorizeApp().sink { completion in
+                    
+                } receiveValue: { response in
+                    
+                }
+            } catch {
+                print(error)
+            }
+        }
     }
 }
 
