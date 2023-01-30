@@ -10,7 +10,7 @@ import Combine
 
 struct ContentView: View {
     @State var cancellable: AnyCancellable?
-    
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -21,9 +21,14 @@ struct ContentView: View {
         .padding().onAppear {
             do {
                 cancellable = try ApiV3Service(creditentialProvider: ApiV3CreditentialsProvider(), dataTaskProvider: DataTaskPublisherProvider()).authorizeApp().sink { completion in
-                    
+                    switch completion {
+                    case .finished:
+                        print("succes")
+                    case .failure(let err):
+                        print("failure \(err)")
+                    }
                 } receiveValue: { response in
-                    
+                    print("value \(response)")
                 }
             } catch {
                 print(error)

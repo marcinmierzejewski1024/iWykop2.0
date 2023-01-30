@@ -41,8 +41,9 @@ class ApiV3Service: Resolving {
         throw APIError.invalidURL
     }
     
-    func authorizedHeaders() -> [String: String] {
-        return [:]
+    func setupRequestHeaders(for request: inout URLRequest) {
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
     }
 }
 
@@ -54,6 +55,7 @@ extension ApiV3Service: ApiV3AuthProtocol {
                                            secret: creditentialProvider.keyAndSecret.1)
         let body = AuthorizeAppRequestBody(data: data)
         urlRequest.httpBody = try jsonEncoder.encode(body)
+        setupRequestHeaders(for: &urlRequest)
         
         return dataTaskProvider.taskPublisher(request: urlRequest).tryMap({ (data: Data, response: URLResponse) in
             guard let httpResponse = response as? HTTPURLResponse else {
@@ -67,7 +69,8 @@ extension ApiV3Service: ApiV3AuthProtocol {
             return data
         }).decode(type: AuthorizeAppResponse.self, decoder: jsonDecoder).mapError { error in
             guard let apiError = error as? APIError else {
-                return .invalidResponse
+                print(error)
+                return .other(error)
             }
 
             return apiError

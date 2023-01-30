@@ -14,5 +14,5 @@ enum APIError: Error {
     case invalidResponse
     case apiError(ApiErrorResponse)
     case code(Int)
+    case other(Error)
 }
-

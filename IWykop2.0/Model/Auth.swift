@@ -7,7 +7,7 @@
 
 import Foundation
 struct AuthResponse: Codable {
-    let refreshToken: String
+    let refreshToken: String?
     let token: String
 
     enum CodingKeys: String, CodingKey {
