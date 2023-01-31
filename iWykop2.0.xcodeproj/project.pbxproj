@@ -31,6 +31,7 @@
 		5639E50D2985A30A00378AB5 /* Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E50C2985A30A00378AB5 /* Embed.swift */; };
 		5639E50F2985A3FE00378AB5 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E50E2985A3FE00378AB5 /* Entry.swift */; };
 		5639E5112985C24200378AB5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639E5102985C24200378AB5 /* Comment.swift */; };
+		564F31D32989895D00F0D876 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564F31D22989895D00F0D876 /* TokenManager.swift */; };
 		56D3FF332985E2BC001E83C6 /* ApiCreditentialsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D3FF322985E2BC001E83C6 /* ApiCreditentialsProvider.swift */; };
 		56D3FF352986E8B0001E83C6 /* DataTaskPublisherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D3FF342986E8B0001E83C6 /* DataTaskPublisherProvider.swift */; };
 		56D3FF382987033A001E83C6 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D3FF372987033A001E83C6 /* Persistance.swift */; };
@@ -85,6 +86,7 @@
 		5639E50C2985A30A00378AB5 /* Embed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Embed.swift; sourceTree = "<group>"; };
 		5639E50E2985A3FE00378AB5 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		5639E5102985C24200378AB5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		564F31D22989895D00F0D876 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
 		56D3FF322985E2BC001E83C6 /* ApiCreditentialsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCreditentialsProvider.swift; sourceTree = "<group>"; };
 		56D3FF342986E8B0001E83C6 /* DataTaskPublisherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherProvider.swift; sourceTree = "<group>"; };
 		56D3FF372987033A001E83C6 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				56D3FF3629870323001E83C6 /* Persistance */,
 				5639E4EF298478C100378AB5 /* ApiClient */,
 				5639E4EE298478B100378AB5 /* ApiV3 */,
+				564F31D22989895D00F0D876 /* TokenManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 				5639E4F42984797300378AB5 /* ApiClient.swift in Sources */,
 				56D3FF332985E2BC001E83C6 /* ApiCreditentialsProvider.swift in Sources */,
 				56D3FF382987033A001E83C6 /* Persistance.swift in Sources */,
+				564F31D32989895D00F0D876 /* TokenManager.swift in Sources */,
 				5639E50B2985A2F500378AB5 /* Author.swift in Sources */,
 				5639E4FF29847C7400378AB5 /* BodyFormatter.swift in Sources */,
 			);

@@ -20,7 +20,7 @@ struct ContentView: View {
         }
         .padding().onAppear {
             do {
-                cancellable = try ApiV3Service(creditentialProvider: ApiV3CreditentialsProvider(), dataTaskProvider: DataTaskPublisherProvider()).authorizeApp().sink { completion in
+                cancellable = try ApiV3Service(creditentialProvider: ApiV3CreditentialsProvider(), dataTaskProvider: DataTaskPublisherProvider()).getEntries().sink { completion in
                     switch completion {
                     case .finished:
                         print("succes")

@@ -12,14 +12,12 @@ protocol Persistance {
     func object<T>(for key: String) -> T?
 }
 
-
 final class UserDefaultsPersistance: Persistance {
     func setObject(_ object: Codable, for key: String) {
         UserDefaults.standard.setValue(object, forKey: key)
         UserDefaults.standard.synchronize()
     }
-    
     func object<T>(for key: String) -> T? {
-        UserDefaults.standard.object(forKey:key) as? T
+        UserDefaults.standard.object(forKey: key) as? T
     }
 }
